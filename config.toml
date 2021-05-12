@@ -1,4 +1,4 @@
-baseURL = "https://mmockus.github.io/"
+baseURL = "https://mmockus.github.io"
 languageCode = "en-us"
 title = "Michael Mockus documentation"
 theme = "hugo-coder"
