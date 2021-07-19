@@ -17,6 +17,6 @@ sudo apt-get install -y nodejs
 npx @docusaurus/init@latest init mmockus.github.io theme-search-angolia
 
 
-<https://github.com/npm/npx/issues/67>
+https://github.com/npm/npx/issues/67
 
 foobar
