@@ -18,7 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# The Site Configuration
+
+# Build settings
+
+# theme: minima # left here for fallback if it goes sideways
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+# Other Settings 
+
 title: Michael Mockus
+subtitle: build more
 email: mmockus@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for homelab learning and professional contact
@@ -26,17 +37,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mmockus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: michael mockus
 github_username:  mmockus
+repository: "mmockus/mmockus.github.io"
 
-# Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-# theme: minima
+# plugins
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-include-cache
   
-minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
