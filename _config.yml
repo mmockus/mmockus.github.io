@@ -30,10 +30,11 @@ twitter_username: michael.mockus
 github_username:  mmockus
 
 # Build settings
-# theme: minimal-mistakes-jekyll
-theme: minima
+theme: minimal-mistakes-jekyll
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # only needed if using remote themes
   
 minimal_mistakes_skin: "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
