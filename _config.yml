@@ -30,7 +30,8 @@ twitter_username: michael.mockus
 github_username:  mmockus
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
   
