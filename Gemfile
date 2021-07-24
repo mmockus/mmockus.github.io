@@ -28,12 +28,14 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-
-# chirpy theme
-gem "jekyll-theme-chirpy"
-
 # for ci
 gem 'html-proofer'
 
 # github
 gem "jekyll-get-json", "~> 1.0"
+
+# chirpy theme
+ gem "jekyll-theme-chirpy"
+
+# Jekyll-theme-clean-blog
+gem "jekyll-theme-clean-blog"
